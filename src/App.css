@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+#dropdownMenu1 :focus + .dropdown-menu {
+  display: block;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+span{
+  margin-right: 6px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+.heading-add {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.td-name {
+  width: 40%;
+}
+
+
+
